@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+  }
+
+html,
+body {
+    margin: 0px;
+    height: 100%;
+
+
+}
+
+.i-phone {
+    display: flex;
+    min-width: 200px;
+    min-height: 100%;
+    align-items: center;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+}
+  
+  .frame1 {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    flex-grow: 1;
+    background: gray;
+    overflow: hidden;
+
+
+}
+
+  .bodySVG {
+    padding: 0px 10px;
+    background: #ededed;
+    height: auto;
+    width: 100%;
+    
+  }
+  .avatarPic {
+    border: none;
+    clip-path: circle();
+  }
+
+ 
+  .frame2 {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    padding: 0px 20px;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0 0 auto;
+    border-radius: 10px;
+    background: #dcdcdc;
+    
+}
+
+.submenu1 {
+  width: 100px;
+  height: 40px;
+  border-radius: 7px;
+  background: white;
+  overflow: hidden;
+}
+.submenu2 {
+  display: flex;
+  height: 40px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4px;
+  border-radius: 10px;
+}
+
+.rectangle-2 {
+  width: 60px;
+  height: 40px;
+  border-radius: 7px;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+ #bat1 {
+  width: 100px; /* Set width of button */
+  height: 40px; /* Set height of button */
+  padding: 0; /* Remove default padding */
+  border: none; /* Remove default border */
+  background: none; /* Remove default background */
+  cursor: pointer; /* Change cursor to pointer on hover */
+ }
+
+  #batC {
+    width: 60px; /* Set width of button */
+    height: 40px; /* Set height of button */
+    padding: 0; /* Remove default padding */
+    border: none; /* Remove default border */
+    background: none; /* Remove default background */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+#batS {
+  width: 60px; /* Set width of button */
+  height: 40px; /* Set height of button */
+  padding: 0; /* Remove default padding */
+  border: none; /* Remove default border */
+  background: none; /* Remove default background */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+#batIN {
+  width: 60px; /* Set width of button */
+  height: 40px; /* Set height of button */
+  padding: 0; /* Remove default padding */
+  border: none; /* Remove default border */
+  background: none; /* Remove default background */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+.icon-nav-small {
+  width: 60px; /* Set width of button */
+  height: 50px; /* Set height of button */
+  padding: 0; /* Remove default padding */
+  border: none; /* Remove default border */
+  background: none; /* Remove default background */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+  
+/* media query for larger screens */
+
+@media screen and (min-width: 400px) {
+
+    .frame2 {
+        align-self: center;
+        max-width: 440px;
+    }
+    .frame1 {
+      max-width: 440px;    
+  }
+}
